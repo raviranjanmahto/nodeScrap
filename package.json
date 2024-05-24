@@ -1,0 +1,31 @@
+{
+  "name": "nodescrap",
+  "version": "1.0.0",
+  "description": "node puppeteer scraping",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "job": "node index.js",
+    "company": "node company.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raviranjanmahto/nodeScrap.git"
+  },
+  "author": "Raviranjan Mahto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raviranjanmahto/nodeScrap/issues"
+  },
+  "homepage": "https://github.com/raviranjanmahto/nodeScrap#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.577.0",
+    "aws-sdk": "^2.1623.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "puppeteer": "^22.9.0",
+    "uuid": "^9.0.1"
+  }
+}
